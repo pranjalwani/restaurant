@@ -1,0 +1,9 @@
+<?php
+$IS_AUTH=false;
+session_start();
+if(!isset($_SESSION['login'])){
+    $IS_AUTH=false;
+}else{
+    $IS_AUTH=true;
+}
+?>
