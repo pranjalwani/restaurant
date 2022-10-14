@@ -1,0 +1,13 @@
+.current{
+    padding:10px;
+    background:#f4f4f4;
+    border:#ccc dotted 1px;
+    margin:20px 0 10px 0;
+}
+.quizForm{
+    margin: auto 12%;
+    display: block;
+}
+li{
+    list-style:none;
+}
