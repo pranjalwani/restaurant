@@ -1,0 +1,22 @@
+.wrap-contact2 {
+    margin: auto;
+}
+.contact2-form-title {
+    padding-bottom: 30px;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #5DADE2;
+    background-color: transparent;
+    border-color: transparent transparent #5DADE2;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+}
