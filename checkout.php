@@ -1,4 +1,6 @@
-﻿<?php
+﻿<!-- checkout page for online food ordering system  -->
+
+<?php
 
 include'system/config.php';
 include'system/session.php';

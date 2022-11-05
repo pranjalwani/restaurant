@@ -1,3 +1,5 @@
+<!-- index for online foos ordering system -->
+
 <?php
 
 include'system/config.php';

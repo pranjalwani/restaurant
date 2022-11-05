@@ -11,3 +11,12 @@ def calculate(candidate_pifs, reference_pifs):
         candidate_pifs, reference_pifs)
     return gain
 
+@app.route("/system/function")
+def gain():
+    carts = request.body['cartid']
+    product = request.body['productid']
+    calculate(carts, product)
+    return gain
+
+if __name__ == "__main__":
+    app.run()
